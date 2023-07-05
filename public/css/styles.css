@@ -68,6 +68,7 @@ body{
     border-radius: 10px;
     border: 1px solid hsl(231, 7%, 60%);
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 
 .email-input button{
@@ -80,5 +81,11 @@ body{
     font-weight: 700;
     color: #ffffff;
     background-color: hsl(234, 29%, 20%);
+    cursor: pointer;
 
+}
+
+.email-input button:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0px 8px 20px hsl(4, 100%, 67%);
 }
