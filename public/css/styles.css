@@ -1,0 +1,72 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+}
+.top-image{
+    background-image: url("../images/illustration-sign-up-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 16px;
+
+}
+
+.update{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+.update img{
+    /* margin-right: .5rem; */
+}
+
+.update p{
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.email-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.email-input label{
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: .4rem;
+}
+
+.email-input input{
+    text-indent: 10px;
+    padding: .8rem;
+    border-radius: 5px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-bottom: 1.5rem;
+}
+
+.email-input button{
+    text-indent: 10px;
+    padding: .8rem;
+    border-radius: 5px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-bottom: 1.5rem;
+
+}
